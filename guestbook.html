@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reversal? | Guestbook</title>
+  </head>
+
+  <body
+    bgcolor="#0a0010"
+    text="#e9d5ff"
+    link="#d8b4fe"
+    vlink="#c084fc"
+    alink="#ffffff"
+    topmargin="0"
+    leftmargin="0"
+    marginheight="0"
+    marginwidth="0"
+  >
+    <!-- ===================== HEADER ===================== -->
+    <table border="0" cellpadding="50" cellspacing="0" width="100%">
+      <tr bgcolor="#000000">
+        <td>
+          <a href="index.html"
+            ><img src="IMGP/sxs.png" width="170" alt="SXS" border="0"
+          /></a>
+        </td>
+      </tr>
+    </table>
+
+    <!-- ===================== JUDUL ===================== -->
+    <table border="0" cellpadding="10" cellspacing="0" width="100%">
+      <tr>
+        <th bgcolor="#48005c" height="140">
+          <font size="7" face="Georgia, serif" color="#ffffff"
+            ><b>Guestbook</b></font
+          ><br />
+          <font size="4" face="Georgia, serif" color="#e9d5ff"
+            >Punya saran atau kritik? Tulis di sini.</font
+          >
+        </th>
+      </tr>
+    </table>
+
+    <br />
+
+    <!-- ===================== FORM GUESTBOOK ===================== -->
+    <form action="mailto:email@anda.com" method="post" enctype="text/plain">
+      <table
+        border="0"
+        cellpadding="20"
+        cellspacing="0"
+        width="640"
+        align="center"
+        bgcolor="#1a0526"
+      >
+        <tr>
+          <td colspan="2" align="center" bgcolor="#2a0036">
+            <font face="Georgia, serif" size="5" color="#ffffff"
+              ><b>Isi Buku Tamu</b></font
+            >
+          </td>
+        </tr>
+
+        <!-- NAMA -->
+        <tr valign="top">
+          <td width="160">
+            <font face="Georgia, serif" color="#c084fc"
+              ><label for="nama"><b>Nama</b></label></font
+            >
+          </td>
+          <td>
+            <input
+              type="text"
+              id="nama"
+              name="Nama"
+              size="40"
+              maxlength="50"
+              required
+            />
+          </td>
+        </tr>
+
+        <!-- JENIS KELAMIN -->
+        <tr valign="top">
+          <td>
+            <font face="Georgia, serif" color="#c084fc"
+              ><b>Jenis Kelamin</b></font
+            >
+          </td>
+          <td>
+            <font face="Georgia, serif" color="#e9d5ff">
+              <input
+                type="radio"
+                id="laki"
+                name="Jenis Kelamin"
+                value="Laki-laki"
+                required
+              />
+              <label for="laki">Laki-laki</label>
+              &nbsp;&nbsp;&nbsp;
+              <input
+                type="radio"
+                id="perempuan"
+                name="Jenis Kelamin"
+                value="Perempuan"
+              />
+              <label for="perempuan">Perempuan</label>
+            </font>
+          </td>
+        </tr>
+
+        <!-- KOMENTAR -->
+        <tr valign="top">
+          <td>
+            <font face="Georgia, serif" color="#c084fc"
+              ><label for="komentar"><b>Komentar</b></label></font
+            >
+          </td>
+          <td>
+            <textarea
+              id="komentar"
+              name="Komentar"
+              rows="8"
+              cols="40"
+              required
+            ></textarea>
+          </td>
+        </tr>
+
+        <!-- TOMBOL -->
+        <tr>
+          <td></td>
+          <td>
+            <input type="submit" value="Submit" />
+            &nbsp;
+            <input type="reset" value="Reset" />
+          </td>
+        </tr>
+      </table>
+    </form>
+
+    <br />
+
+    <table
+      border="0"
+      cellpadding="10"
+      cellspacing="0"
+      width="640"
+      align="center"
+    >
+      <tr>
+        <td align="center">
+          <font face="Georgia, serif" size="2" color="#a78bfa"
+            >Terima kasih sudah mampir. Setiap saran dan kritik sangat
+            berarti.</font
+          >
+        </td>
+      </tr>
+    </table>
+
+    <!-- ===================== FOOTER ===================== -->
+    <table
+      border="0"
+      cellpadding="25"
+      cellspacing="0"
+      width="100%"
+      bgcolor="#000000"
+    >
+      <tr>
+        <td align="center">
+          <font face="Georgia, serif" size="2" color="#a78bfa"
+            >&copy; 2026 Reversal? &nbsp;
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
